@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+    
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="https://play-lh.googleusercontent.com/hFygWSfqgqZEVLVJ8jI_XsWnqRMj2d5bQQUfd8NM9LBxfJ0LPnlu6nYsLn_7mUGaNNk"
+                    alt="Recipe Finder Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="#">Veg</a></li>
+                    <li><a href="#">Non-Veg</a></li>
+                    <li><a href="#">Cuisine</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="home-search">
+                <input type="text" placeholder="Search recipes...">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-header">
+            <h1>Feedback Form</h1>
+            <p>We would love to hear your thoughts!</p>
+        </section>
+
+        <section class="feedback-form-container">
+            <form action="#" method="POST" class="feedback-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email (required)</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number (optional)</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+                <div class="form-buttons">
+                    <button type="submit" class="send-btn">Send</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-sections">
+                <div class="footer-box">
+                    <div class="footer-column">
+                        <h3>Meet the Team</h3>
+                        <ul>
+                            <li>56- Varun Maddi</li>
+                            <li>57- Anushka Mahajan</li>
+                            <li>58- Rahul Mahto</li>
+                            <li>59- RohitMandan</li>
+                            <li>60- Aman Maurya</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="footer-column">
+                        <h3>Collaborate with Us</h3>
+                        <p>If you are interested in collaborating, sharing recipes or contributing, please <a href="#">contact us</a>.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <p>Email: info@recipefinder.com</p>
+                        <p>Phone: +123 456 7890</p>
+                    </div>
+                </div>
+            </div>
+            <p>© 2024 Recipe Finder. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
